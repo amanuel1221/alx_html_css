@@ -14,3 +14,19 @@ aside {
     flex: 1;
     overflow-y: auto;
 }   
+article, aside {
+   background-color: aqua;
+}   
+nav {
+    background-color: lightblue;
+}
+a {
+    &:hover {
+        background-color: rgb(88, 89, 88);
+        color: red;
+    }
+}
+footer {
+    background-color: lightblue;
+  
+}
