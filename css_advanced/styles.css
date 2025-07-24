@@ -4,11 +4,11 @@
     font-weight: normal;
     font-style: normal;
 }
-body, h1, h2, h3, h4, h5, h6, p, a, button, span {
-    font-family: 'Spin Font', Arial, sans-serif;
+body, h1, h2, h3, h4, h5, h6, p, a, button, span, th, td {
+    font-family: 'Source Sans Pro', Arial, sans-serif;
     margin: 0;
     padding: 0;
-} 
+}
 .home {
     background-image: url(images/background.png);
     background-size: cover;
@@ -125,4 +125,41 @@ body, h1, h2, h3, h4, h5, h6, p, a, button, span {
 .pro p {
     font-size: 0.95em;
     color: #eee;
+}
+
+.testimonial {
+    background: #b26ae8;
+    padding: 50px 0;
+    color: #fff;
+    text-align: left;
+}
+.testimonial-content {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    gap: 40px;
+}
+.testimonial-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 6px solid #fff;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+}
+.testimonial blockquote {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+.testimonial-name {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+.testimonial-role {
+    font-style: italic;
+    color: #eee;
+    font-size: 1em;
 }
