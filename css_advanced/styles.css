@@ -163,3 +163,260 @@ body, h1, h2, h3, h4, h5, h6, p, a, button, span, th, td {
     color: #eee;
     font-size: 1em;
 }
+
+
+.popular-section {
+    background: #fff;
+    padding: 60px 0 80px 0;
+    text-align: center;
+}
+
+.popular-section h2 {
+    font-size: 2.2em;
+    font-weight: 400;
+    margin-bottom: 50px;
+    color: #222;
+}
+
+.popular-section .highlight {
+    color: #b26ae8;
+    font-weight: bold;
+}
+
+.tutorials-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.tutorial-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+    width: 220px;
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tutorial-card img {
+    width: 220px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 12px 12px 0 0;
+    margin-bottom: 18px;
+    position: relative;
+}
+
+.tutorial-card .play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    font-size: 2em;
+    color: #b26ae8;
+}
+
+.tutorial-card h3 {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #222;
+}
+
+.tutorial-card p {
+    font-size: 0.95em;
+    color: #555;
+    margin-bottom: 18px;
+}
+
+.tutorial-meta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.tutorial-meta img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 8px;
+}
+
+.tutorial-meta .author {
+    color: #b26ae8;
+    font-weight: bold;
+    font-size: 0.95em;
+}
+
+.tutorial-stars {
+    color: #b26ae8;
+    margin-bottom: 8px;
+}
+
+.tutorial-time {
+    color: #b26ae8;
+    font-size: 0.95em;
+    font-weight: bold;
+}
+/* ...existing code... */
+.free-membership-section {
+    background: #131a2a;
+    padding: 60px 0 80px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.free-membership-section h2 {
+    font-size: 2em;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.free-membership-section .highlight {
+    color: #b26ae8;
+    font-weight: bold;
+}
+
+.free-membership-cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.free-membership-card {
+    background: transparent;
+    color: #fff;
+    border-radius: 12px;
+    width: 220px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.free-membership-card img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 18px;
+    filter: brightness(0) saturate(100%) invert(54%) sepia(77%) saturate(747%) hue-rotate(227deg) brightness(97%) contrast(101%);
+}
+
+.free-membership-card h3 {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+.free-membership-card p {
+    font-size: 0.95em;
+    color: #b0b8c9;
+    margin-bottom: 8px;
+}
+
+.register-btn {
+    background: linear-gradient(90deg, #b26ae8 0%, #a259e6 100%);
+    color: #fff;
+    border: none;
+    padding: 15px 40px;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: 0 2px 8px rgba(178,106,232,0.15);
+    transition: background 0.2s, color 0.2s;
+}
+
+.register-btn:hover {
+    background: #fff;
+    color: #b26ae8;
+}
+
+.faq-section {
+    background: #fff;
+    padding: 60px 0 80px 0;
+    text-align: center;
+}
+
+.faq-title {
+    font-size: 3em;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    margin-bottom: 50px;
+    color: #222;
+    font-family: 'Spin Font', 'Source Sans Pro', Arial, sans-serif;
+}
+
+.faq-card {
+    background: #f9f9f9;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+}
+
+.faq-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 12px;
+    color: #222;
+}
+
+.faq-card p {
+    font-size: 0.95em;
+    color: #555;
+}
+
+.footer-section {
+    background: #0a1a2a;
+    padding: 40px 0 20px 0;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.footer-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.footer-logo {
+    width: 40px;
+    height: 40px;
+}
+.footer-title {
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.footer-right i {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.footer-copyright {
+    text-align: center;
+    color: #b0b8c1;
+    margin-top: 30px;
+    font-size: 0.95rem;
+}
