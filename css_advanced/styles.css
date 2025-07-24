@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'Spin Font';
+    src: url('fonts/spin-font.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+body, h1, h2, h3, h4, h5, h6, p, a, button, span {
+    font-family: 'Spin Font', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+} 
+.home {
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    color: #fff;
+}
+.header {
+    width: 100%;
+    padding-top: 30px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo img {
+    height: 40px;
+}
+.brand {
+    font-size: 1.3em;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.nav-links {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1em;
+    letter-spacing: 1px;
+    transition: color 0.2s;
+}
+.nav-links a:hover {
+    color: #ffd700;
+}
+.hero {
+    text-align: center;
+    margin-top: 120px;
+}
+.hero h1 {
+    font-size: 4em;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.hero-tags {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+.hero-btn {
+    background: #ffd700;
+    color: #222;
+    border: none;
+    padding: 15px 40px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-bottom: 60px;
+    transition: background 0.2s;
+}
+.hero-btn:hover {
+    background: #fff;
+}
+.pros {
+    text-align: center;
+    margin-top: 60px;
+}
+.pros h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.pros-container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.pro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 180px;
+}
+.pro img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 6px solid #fff;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+}
+
+.pro h3 {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.pro p {
+    font-size: 0.95em;
+    color: #eee;
+}
