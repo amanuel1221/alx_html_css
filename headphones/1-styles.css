@@ -1,0 +1,91 @@
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('../Fonts/SourceSansPro-Regular.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Spin Cycle OT';
+  src: url('../Fonts/SpinCycle_ot.ttf') format('truetype');
+}
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container-what{
+    
+    height: 600px;
+    width: 100%;
+
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 20px;
+}
+.what-notes{
+    margin-top: 100px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.icons-note{
+    margin: 100px 50px;
+    gap: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+}
+.icon{
+    width: 180px;
+    height: 200px;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.icons-note img{
+    margin-bottom: 50px;
+}
+.icons-note p{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 480px){
+
+.container-what{
+    align-items: center;
+    height: 1200px;
+    width: 100%;
+
+}
+
+.what-notes{
+    margin-top: 100px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: medium;
+
+}
+.icon{
+    width: auto;
+
+}
+.icons-note{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    margin: 50px 20px;
+    gap: 15px;
+    height: auto;
+}
+
+}
+    
