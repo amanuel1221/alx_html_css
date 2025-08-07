@@ -1,0 +1,92 @@
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('../Fonts/SourceSansPro-Regular.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Spin Cycle OT';
+  src: url('../Fonts/SpinCycle_ot.ttf') format('truetype');
+}
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container2{
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    color: white;
+     background-image: url(img/headphones_hero_2.jpg);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+     padding: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+}
+.allicon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+    padding: 40px;
+    margin-top: 50px;
+}
+.hey{
+    display: flex;
+    flex-direction: column;
+    wrap: nowrap;
+    margin-top: 400px;
+}
+
+@media (max-width:480px){
+   container2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    color: white;
+     background-image: url(img/headphones_hero_2.jpg);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+     padding: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    
+}
+.allicon{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+    margin-top: 50px;
+   
+}
+.hey{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 400px;
+    width:100%;
+}
+
+}
+
+
+
