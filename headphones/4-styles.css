@@ -238,7 +238,7 @@ container2{
   }
 .container-what{
     
-    height: 600px;
+    height: auto;
     width: 100%;
 
   display: flex;
@@ -256,14 +256,14 @@ container2{
     margin: 100px 50px;
     gap: 20px;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
     text-align: center;
     height: auto;
 }
 .icon{
     width: 180px;
-    height: 200px;
+    height: auto;
     display: flex;
     flex-direction:column ;
     justify-content: center;
@@ -297,12 +297,14 @@ container2{
 }
 .allicon{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     text-align: center;
     gap: 40px;
     padding: 40px;
     margin-top: 50px;
+    height: auto;
 }
 .hey{
     display: flex;
@@ -310,7 +312,7 @@ container2{
     wrap: nowrap;
     margin-top: 400px;
 }
-container3{
+.container3{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -378,4 +380,15 @@ footer{
     align-items: center;
     text-align: center;
   
+}
+
+.our-icons img{
+  transition: transform 0.3 s ease;
+}
+.our-icons img:hover{
+  transform: scale(1.1);
+}
+.icon img:hover{
+  transform: scale(1.1);
+
 }
