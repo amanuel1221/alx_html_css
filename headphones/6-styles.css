@@ -1,0 +1,419 @@
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('../Fonts/SourceSansPro-Regular.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Spin Cycle OT';
+  src: url('../Fonts/SpinCycle_ot.ttf') format('truetype');
+}
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+:root{
+  --nav-color:#FF6565;
+
+}
+.container{
+  background-image: url(img/headphones_hero_1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 800px;
+  width: 100%;
+}
+.headers{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 100px;
+
+}
+.menu-toggle,
+.menu-icon {
+  display: none;
+}
+
+
+li{
+  list-style-type: none;
+  margin-left:20px;
+  margin-top: 35px;
+}
+a{
+  text-decoration: none;
+  color:white ;
+  cursor: pointer;
+}
+.navbar ul{
+  display: flex;
+}
+.navbar{}
+.logo img{
+  width: 150px;
+  height: 30px;
+  margin-top:30px ;
+}
+.noting{
+  margin-top: 270px;
+  text-align: center;
+  color: white;
+
+}
+.texts{
+  margin-bottom: 55px;
+
+}
+.texts h1{
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 0px;
+  line-height: auto;
+}
+.texts p{
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0px;
+  line-height: auto;
+}
+button{
+  width: 160px;
+  height: 60px;
+  background-color: red;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-bottom: 55px;
+  margin-top: 6px;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.last-text{
+  text-align: center;
+  line-height: 30px;
+  font-size: 16px;
+}
+a:hover{
+  color:var(--nav-color);
+  transition: 0.3s ease;
+}
+button:hover{
+  background-color:var(--nav-color);
+  opacity: 0.9;
+}
+.button{
+  font-size: large;
+}
+@media (max-width: 480px) {
+
+  /* Show hamburger icon */
+  .menu-icon {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+
+  .menu-icon span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    transition: all 0.3s ease;
+  }
+
+  /* Hide nav links by default on mobile */
+  .navbar {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    
+    padding: 20px;
+    text-align: center;
+    z-index: 99;
+  }
+
+  /* Show menu when checkbox is checked */
+  .menu-toggle:checked + .menu-icon + .navs .navbar{
+    display: flex;
+  }
+  .navbar ul{
+    flex-direction: column;
+    gap: 5px;
+
+  }
+
+  .container-what{
+    align-items: center;
+    height: 1200px;
+    width: 100%;
+
+}
+
+.what-notes{
+    margin-top: 100px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: medium;
+
+}
+.icon{
+    width: auto;
+
+}
+.icons-note{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    margin: 50px 20px;
+    gap: 15px;
+    height: auto;
+}
+container2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    color: white;
+     background-image: url(img/headphones_hero_2.jpg);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+     padding: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    
+}
+.allicon{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+    margin-top: 50px;
+   
+}
+.hey{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 400px;
+    width:100%;
+}
+
+
+
+
+
+
+}
+
+.menu-icon {
+    display: flex;
+  }
+
+  /* Show menu when checkbox is checked */
+  .menu-toggle:checked ~ .navbar {
+    display: flex;
+  }
+
+  .navbar ul {
+    
+    gap: 5px;
+    
+  }
+.container-what{
+    
+    height: 600px;
+    width: 100%;
+
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 20px;
+}
+.what-notes{
+    margin-top: 100px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.icons-note{
+    margin: 100px 50px;
+    gap: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+}
+.icon{
+    width: 180px;
+    height: 200px;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.icons-note img{
+    margin-bottom: 50px;
+}
+.icons-note p{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.container2{
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    color: white;
+     background-image: url(img/headphones_hero_2.jpg);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+     padding: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+}
+
+
+    /* Style the icon container */
+.allicon {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+/* Each wrapper div */
+.our-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Pentagon shape */
+.pentagon {
+  width: 100px;
+  height: 100px;
+  background: red; /* Or use your theme color */
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 25px;
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+.pentagon:hover {
+  transform: scale(1.05);
+}
+
+.pentagon span {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: normal;
+  margin-top: 5px;
+}
+
+    
+
+.hey{
+    display: flex;
+    flex-direction: column;
+    wrap: nowrap;
+    margin-top: 400px;
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.call{
+    margin-top: 40px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: red;
+}
+.call:hover{
+    background-color: var(--nav-color);
+    cursor: pointer;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+
+}
+
+
+.pentagon img{
+
+}
+footer{
+    background-color: #071629;
+    color: white;
+    padding:0%;
+}
+.footer{
+    align-items: center;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+
+}
+.footer ul{
+    display: flex;
+    margin-right: 30px;
+}
+.footer ul li{
+    font-size: 30px;
+}
+
+
+.copyright{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+}
